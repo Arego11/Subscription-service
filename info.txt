@@ -1,0 +1,20 @@
+These are test cases for http requests in JSON format
+
+sample for subscribing: 
+{
+  "name": "Netflix Premium",
+  "price": "15.99",
+  "currency": "USD",
+  "frequency": "monthly",
+  "category": "sports",
+  "startDate": "2024-02-01T00:00:00.000Z",
+  "paymentMethod": "credit_card"
+}
+
+user login information: 
+//only need the email and password
+{
+  "name": "testing",
+  "email": "testcase@gmail.com",
+  "password": "testcase11"
+} // token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2QyOGI3Yjg4YWViYWJiYzY0NDM5ZmUiLCJpYXQiOjE3NDE4NTE5NDIsImV4cCI6MTc0MTkzODM0Mn0.BXnyDfGMX6X2Poht3XB0yJLMItrD8by_aIgfz7-EJ3k
