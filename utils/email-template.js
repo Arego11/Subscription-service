@@ -91,4 +91,10 @@ export const emailTemplates = [
       `⚡ Final Reminder: ${data.subscriptionName} Renews Tomorrow!`,
     generateBody: (data) => generateEmailTemplate({ ...data, daysLeft: 1 }),
   },
+  {
+    label: "Subscription Created", // Added this template
+    generateSubject: (data) =>
+      `🎉 Welcome! Your ${data.subscriptionName} Subscription is Created!`,
+    generateBody: (data) => generateEmailTemplate({ ...data, daysLeft: 0 }),
+  },
 ];
