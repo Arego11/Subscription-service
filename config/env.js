@@ -11,4 +11,4 @@ export const {
     SERVER_URL,
     REDIS_URL,
     EMAIL_PASSWORD,
-    } = process.env;
+} = process.env;
