@@ -1,11 +1,3 @@
-Services
-Documents
-Untitled Document.md
-Save to 
-Import from 
-Document Name
-Untitled Document.md
-MarkdownPreviewToggle Mode
 
 <p class="has-line-data" data-line-start="0" data-line-end="1">Subscription Management System API</p>
 <p class="has-line-data" data-line-start="2" data-line-end="3">This is a real-world subscription management system API that handles real users and real business logic.</p>
