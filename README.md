@@ -20,36 +20,29 @@
 Upstash - <a href="https://upstash.com/">https://upstash.com/</a><br>
 Mongo - <a href="https://www.mongodb.com/">https://www.mongodb.com/</a></p>
 
-Use the app using the following JSON format (for httpie, swagger, etc)
-
-sign up
-
-v1/api/auth/sign-up
-{
-  "name": "test",
-  "email": "test@gmail.com",
-  "password": "test"
-}
-sign in
-
-v1/api/auth/sign-in
-{
-  "email": "test@gmail.com",
-  "password": "test"
-}
-
-subscribe
-
-v1/api/subscribe
-
-{
-  "name": "Netflix Premium",
-  "price": "15.99",
-  "currency": "USD",
-  "frequency": "monthly",
-  "category": "sports",
-  "startDate": "2025-03-01T00:00:00.000Z",
-  "paymentMethod": "credit_card"
-}
-
-you should receive the email after this 
+<p class="has-line-data" data-line-start="0" data-line-end="1">Use the app using the following JSON format (for httpie, swagger, etc)</p>
+<p class="has-line-data" data-line-start="2" data-line-end="3">sign up</p>
+<p class="has-line-data" data-line-start="4" data-line-end="11">v1/api/auth/sign-up<br>
+{<br>
+“name”: “test”,<br>
+“email”: <a href="mailto:%22test@gmail.com">&quot;test@gmail.com</a>&quot;,<br>
+“password”: “test”<br>
+}<br>
+sign in</p>
+<p class="has-line-data" data-line-start="12" data-line-end="17">v1/api/auth/sign-in<br>
+{<br>
+“email”: <a href="mailto:%22test@gmail.com">&quot;test@gmail.com</a>&quot;,<br>
+“password”: “test”<br>
+}</p>
+<p class="has-line-data" data-line-start="18" data-line-end="19">subscribe</p>
+<p class="has-line-data" data-line-start="20" data-line-end="21">v1/api/subscribe</p>
+<p class="has-line-data" data-line-start="22" data-line-end="31">{<br>
+“name”: “Netflix Premium”,<br>
+“price”: “15.99”,<br>
+“currency”: “USD”,<br>
+“frequency”: “monthly”,<br>
+“category”: “sports”,<br>
+“startDate”: “2025-03-01T00:00:00.000Z”,<br>
+“paymentMethod”: “credit_card”<br>
+}</p>
+<p class="has-line-data" data-line-start="32" data-line-end="33">you should receive the email after this</p>
