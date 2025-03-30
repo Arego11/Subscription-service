@@ -19,3 +19,37 @@
 <p class="has-line-data" data-line-start="29" data-line-end="32">Arcjet - <a href="https://arcjet.com/">https://arcjet.com/</a><br>
 Upstash - <a href="https://upstash.com/">https://upstash.com/</a><br>
 Mongo - <a href="https://www.mongodb.com/">https://www.mongodb.com/</a></p>
+
+Use the app using the following JSON format (for httpie, swagger, etc)
+
+sign up
+
+v1/api/auth/sign-up
+{
+  "name": "test",
+  "email": "test@gmail.com",
+  "password": "test"
+}
+sign in
+
+v1/api/auth/sign-in
+{
+  "email": "test@gmail.com",
+  "password": "test"
+}
+
+subscribe
+
+v1/api/subscribe
+
+{
+  "name": "Netflix Premium",
+  "price": "15.99",
+  "currency": "USD",
+  "frequency": "monthly",
+  "category": "sports",
+  "startDate": "2025-03-01T00:00:00.000Z",
+  "paymentMethod": "credit_card"
+}
+
+you should receive the email after this 
